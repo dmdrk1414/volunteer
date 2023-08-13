@@ -1,6 +1,14 @@
 // basic scss.file
 @import url(./reset.scss);
 
+// import router 
+@import url(./router/Main.scss);
+
+// import router 
+@import url(./router/Main.scss);
+
+// import components 
+@import url(./components/Manu.scss);
 
 a {
     text-decoration: none;
