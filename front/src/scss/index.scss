@@ -1,29 +1,35 @@
 // basic scss.file
 @import url(./reset.scss);
 
-// import router 
+// import router
 @import url(./router/Main.scss);
 
-// import router 
+// import router
 @import url(./router/Main.scss);
 
-// import components 
+// import components
 @import url(./components/Manu.scss);
 
+// import screen
+@import url(./screen/Home_contant.scss);
+
 a {
-    text-decoration: none;
-    color: #6d6460;
+  text-decoration: none;
+  color: #6d6460;
 }
 
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
-    background-color: #eaeeef;
+  background-color: rgb(225, 228, 229);
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }

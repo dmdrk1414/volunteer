@@ -1,4 +1,8 @@
-/* eslint-disable-next-line  */
+// import 리액트
+import React from "react";
+import { Link } from "react-router-dom";
+
+// import 부트스트랩
 import {
   Navbar,
   Nav,
@@ -8,8 +12,6 @@ import {
   FormControl,
   Container,
 } from "react-bootstrap";
-/* eslint-disable-next-line  */
-import { Link } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";

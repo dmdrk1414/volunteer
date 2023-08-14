@@ -1,0 +1,34 @@
+.home_contant {
+  height: 100%;
+  width: 100%;
+  .background_image {
+    width: 100%;
+    height: 350px;
+    background-image: url("../../../img/dmdrk.jpeg");
+  }
+  .contant_container {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(223, 203, 203);
+
+    .contant-container-items {
+      width: 20%;
+      height: 65%;
+      background-color: white;
+      border-radius: 10px;
+
+      .item-region {
+        height: 10%;
+        color: aliceblue;
+        background-color: tomato;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-weight: bold;
+      }
+
+      .items {
+        margin: 5px;
+      }
+    }
+  }
+}
