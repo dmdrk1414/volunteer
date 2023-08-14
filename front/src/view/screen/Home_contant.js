@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 // firebase
-import database from "../../db/firebase.config";
 import axios from "axios";
 import { firebaseUrl } from "../../api/firebaseUrl";
 
@@ -14,14 +13,13 @@ function Home_contant() {
   const [northContant, setNorthContant] = useState([]);
 
   useEffect(() => {
-    const dataBase = database;
     fetchData();
   }, []);
 
   const fetchData = async () => {
     // TODO
     await axios
-      .get(`${firebaseUrl}main.json`)
+      .get(`${firebaseUrl}/main.json`)
       .then((response) => {
         const data = response.data;
         setEastContant(data.남구);

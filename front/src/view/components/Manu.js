@@ -35,7 +35,7 @@ function Manu() {
                 <Link to="#action/3.2">신청 현황</Link>
               </Nav.Link>
               <NavDropdown title="나의 자원 봉사">
-                <NavDropdown.Item href="/#action/3.3">로그인</NavDropdown.Item>
+                <NavDropdown.Item href="/login">로그인</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.4">
                   나의 신청현황
                 </NavDropdown.Item>

@@ -12,6 +12,7 @@
 
 // import screen
 @import url(./screen/Home_contant.scss);
+@import url(./screen/Login_contant.scss);
 
 a {
   text-decoration: none;
@@ -26,7 +27,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: rgb(225, 228, 229);
+  background-color: rgb(243, 244, 245);
 }
 
 code {
