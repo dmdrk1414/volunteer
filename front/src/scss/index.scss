@@ -9,12 +9,13 @@
 
 // import components
 @import url(./components/Manu.scss);
-@import url(./components/AirticleContant.scss);
 @import url(./components/HomeContantComponents.scss);
+@import url(./components/AirticleContantComponents.scss);
 
 // import screen
 @import url(./screen/Home_contant.scss);
 @import url(./screen/Login_contant.scss);
+@import url(./screen/ApplicationArticle_contant.scss);
 
 a {
   text-decoration: none;

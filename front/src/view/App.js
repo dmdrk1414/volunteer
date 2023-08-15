@@ -12,6 +12,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./router/Home";
 import Login from "./router/Login";
 import VolunteerArticle from "./router/VolunteerArticle";
+import ApplicationArticle from "./router/ApplicationArticle";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/article/volunteer" element={<VolunteerArticle />} />
+        <Route
+          path="/article/application-status"
+          element={<ApplicationArticle />}
+        />
       </Routes>
     </Router>
   );

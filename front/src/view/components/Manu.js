@@ -32,11 +32,11 @@ function Manu() {
                 <Link to="/article/volunteer">봉사 신청</Link>
               </Nav.Link>
               <Nav.Link className="nav_items">
-                <Link to="#action/3.2">신청 현황</Link>
+                <Link to="/article/application-status">신청 현황</Link>
               </Nav.Link>
               <NavDropdown title="나의 자원 봉사">
                 <NavDropdown.Item href="/login">로그인</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">
+                <NavDropdown.Item href="/article/application-status">
                   나의 신청현황
                 </NavDropdown.Item>
               </NavDropdown>
