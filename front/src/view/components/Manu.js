@@ -29,7 +29,7 @@ function Manu() {
           <Navbar>
             <Nav className="justify-content-arount">
               <Nav.Link className="nav_items">
-                <Link to="#action/3.1">봉사 신청</Link>
+                <Link to="/article/volunteer">봉사 신청</Link>
               </Nav.Link>
               <Nav.Link className="nav_items">
                 <Link to="#action/3.2">신청 현황</Link>
