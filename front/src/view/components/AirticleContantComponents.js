@@ -1,7 +1,7 @@
 // import 리액트
 import React, { useEffect, useState } from "react";
 
-function AirticleContant({ data }) {
+function AirticleContantComponents({ data }) {
   return (
     // 무조건 div는 하나
     <div className="article-items d-flex align-items-center">
@@ -25,4 +25,4 @@ function AirticleContant({ data }) {
 }
 
 /* eslint-disable-next-line  */
-export default AirticleContant;
+export default AirticleContantComponents;
