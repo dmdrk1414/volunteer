@@ -5,12 +5,13 @@ import { Link } from "react-router-dom";
 // firebase
 import axios from "axios";
 import { firebaseUrl } from "../../api/firebaseUrl";
+import HomeContantComponents from "../components/HomeContantComponents";
 
 function Home_contant() {
-  const [eastContant, setEastContant] = useState([]);
-  const [westContant, setWestContant] = useState([]);
-  const [southContant, setSouthContant] = useState([]);
-  const [northContant, setNorthContant] = useState([]);
+  const [eastAriticle, setEastAriticle] = useState([]);
+  const [westAriticle, setWestAriticle] = useState([]);
+  const [southAriticle, setSouthAriticle] = useState([]);
+  const [northAriticle, setNorthAriticle] = useState([]);
 
   useEffect(() => {
     fetchData();
@@ -22,11 +23,10 @@ function Home_contant() {
       .get(`${firebaseUrl}/main.json`)
       .then((response) => {
         const data = response.data;
-        setEastContant(data.남구);
-        setWestContant(data.서구);
-        setSouthContant(data.남구);
-        setNorthContant(data.북구);
-        console.log(data.남구);
+        setEastAriticle(data.east);
+        setWestAriticle(data.west);
+        setNorthAriticle(data.north);
+        setSouthAriticle(data.south);
       })
       .catch((error) => console.log(error));
   };
@@ -35,46 +35,10 @@ function Home_contant() {
     <div className="home_contant">
       <div className="background_image"></div>
       <div className="d-flex contant_container align-items-center justify-content-around">
-        <div className="contant-container-items ">
-          <div className="item-region d-flex justify-content-center">동 구</div>
-          <div className="item-contant">
-            {eastContant.map((item, index) => (
-              <a key={index} href={`/#action/3.${index + 1}`}>
-                <div className="items">{item}</div>
-              </a>
-            ))}
-          </div>
-        </div>
-        <div className="contant-container-items ">
-          <div className="item-region d-flex justify-content-center">서 구</div>
-          <div className="item-contant">
-            {westContant.map((item, index) => (
-              <a key={index} href={`/#action/3.${index + 1}`}>
-                <div className="items">{item}</div>
-              </a>
-            ))}
-          </div>
-        </div>
-        <div className="contant-container-items ">
-          <div className="item-region d-flex justify-content-center">남 구</div>
-          <div className="item-contant">
-            {southContant.map((item, index) => (
-              <a key={index} href={`/#action/3.${index + 1}`}>
-                <div className="items">{item}</div>
-              </a>
-            ))}
-          </div>
-        </div>
-        <div className="contant-container-items ">
-          <div className="item-region d-flex justify-content-center">북 구</div>
-          <div className="item-contant">
-            {northContant.map((item, index) => (
-              <a key={index} href={`/#action/3.${index + 1}`}>
-                <div className="items">{item}</div>
-              </a>
-            ))}
-          </div>
-        </div>
+        <HomeContantComponents data={eastAriticle} />
+        <HomeContantComponents data={westAriticle} />
+        <HomeContantComponents data={southAriticle} />
+        <HomeContantComponents data={northAriticle} />
       </div>
     </div>
   );
