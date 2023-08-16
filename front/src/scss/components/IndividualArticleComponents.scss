@@ -1,0 +1,34 @@
+.volunteer-individual-article-container {
+  s .container-title {
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid black;
+    font-weight: bold;
+  }
+
+  .items-container {
+    .items {
+      .items-contant-title {
+        background-color: rgb(217, 217, 217);
+        height: 30px;
+        width: 200px;
+        border-top: 0.8px solid black;
+        border-bottom: 0.8px solid black;
+      }
+
+      .items-contant {
+        padding-left: 10px;
+        background-color: rgb(250, 251, 251);
+        height: 30px;
+        width: 500px;
+        border-bottom: 0.7px solid black;
+      }
+    }
+  }
+
+  .individual-contant {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+}
