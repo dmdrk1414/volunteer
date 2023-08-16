@@ -29,7 +29,7 @@ function Home_contant() {
       <div className="article-subject ">봉사신청 게시판</div>
       <div className="articles-container ">
         {ariticleList.map((item, index) => (
-          <Link to={`/article/volunteers/${item.id}`} key={index}>
+          <Link to={`/article/volunteers/${item.id}`} key={item.id}>
             <AirticleContantComponents key={index} data={item} />
           </Link>
         ))}
