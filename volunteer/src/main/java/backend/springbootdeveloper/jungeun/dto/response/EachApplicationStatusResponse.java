@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @Getter
 public class EachApplicationStatusResponse {
-    private Long id;
+    private long id;
     private String title;
     private String volunteerPeriod;
     private String volunteerTime;
