@@ -1,0 +1,24 @@
+.volunteer-individual-article-container {
+  .volunteer-application-form {
+    border-top: 1px solid black;
+
+    .application-form-title {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .form-container {
+      .application-custom-placeholder {
+        height: 35px;
+        width: 280px;
+      }
+      .application-inner-form {
+        height: 35px;
+        width: 100px;
+
+        .application-btn {
+          height: 35px;
+        }
+      }
+    }
+  }
+}

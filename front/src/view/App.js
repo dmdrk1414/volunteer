@@ -15,6 +15,7 @@ import Login from "./router/Login";
 // 봉사 활동 게시물
 import VolunteerArticle from "./router/VolunteerArticle";
 import VolunteerIndividualArticle from "./router/VolunteerIndividualArticle";
+import ApplicationIndividualArticle from "./router/ApplicationIndividualArticle";
 
 // 지원 현황
 import ApplicationArticle from "./router/ApplicationArticle";
@@ -33,6 +34,10 @@ function App() {
         <Route
           path="/article/volunteers/:articleId"
           element={<VolunteerIndividualArticle />}
+        />
+        <Route
+          path="/article/application-status/:articleId"
+          element={<ApplicationIndividualArticle />}
         />
       </Routes>
     </Router>

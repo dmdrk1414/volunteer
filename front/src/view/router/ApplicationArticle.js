@@ -6,7 +6,7 @@ import axios from "axios";
 import Manu from "../components/Manu";
 import ApplicationArticle_contant from "../screen/ApplicationArticle_contant";
 
-function Home() {
+function ApplicationArticle() {
   return (
     <div>
       <Manu></Manu>
@@ -15,4 +15,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default ApplicationArticle;

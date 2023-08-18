@@ -7,7 +7,7 @@ import axios from "axios";
 import { firebaseUrl } from "../../api/firebaseUrl";
 import ApplicationArticleContantComponents from "../components/ApplicationArticleContantComponents";
 
-function Home_contant() {
+function ApplicationArticle_contant() {
   const [applicationAriticleList, setApplicationAriticleList] = useState([]);
 
   useEffect(() => {
@@ -47,4 +47,4 @@ function Home_contant() {
 }
 
 /* eslint-disable-next-line  */
-export default Home_contant;
+export default ApplicationArticle_contant;
