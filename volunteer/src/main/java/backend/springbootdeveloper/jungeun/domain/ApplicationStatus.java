@@ -18,37 +18,37 @@ public class ApplicationStatus {
     @Column(name = "id", updatable = false)
     private long id; // 게시물 고유 아이디
 
-    @Column(name = "title", updatable = false)
+    @Column(name = "title", nullable = false)
     private String title; // 게시물 제목
 
-    @Column(name = "volunteerPeriod", updatable = false)
+    @Column(name = "volunteerPeriod", nullable = false)
     private String volunteerPeriod; // 봉사 기간
 
-    @Column(name = "volunteerTime", updatable = false)
+    @Column(name = "volunteerTime", nullable = false)
     private String volunteerTime; // 봉사 시간
 
-    @Column(name = "adPeriod", updatable = false)
+    @Column(name = "adPeriod", nullable = false)
     private String adPeriod; // 모집 기간
 
-    @Column(name = "volunteerPlace", updatable = false)
+    @Column(name = "volunteerPlace", nullable = false)
     private String volunteerPlace; // 봉사 장소
 
-    @Column(name = "adPeople", updatable = false)
+    @Column(name = "adPeople", nullable = false)
     private int adPeople; // 모집 인원
 
-    @Column(name = "applicationPeople", updatable = false)
+    @Column(name = "applicationPeople", nullable = false)
     private int applicationPeople; // 신청 인원
 
-    @Column(name = "adOffice", updatable = false)
+    @Column(name = "adOffice", nullable = false)
     private String adOffice; // 모집 기관
 
-    @Column(name = "volunteerType", updatable = false)
+    @Column(name = "volunteerType", nullable = false)
     private String volunteerType; // 봉사자 유형
 
-    @Column(name = "content", updatable = false)
+    @Column(name = "content", nullable = false)
     private String content; // 게시물 내용
 
-    @Column(name = "recruitment", updatable = false)
+    @Column(name = "recruitment", nullable = false)
     private String recruitment; // 모집 여부
 
     @Builder
