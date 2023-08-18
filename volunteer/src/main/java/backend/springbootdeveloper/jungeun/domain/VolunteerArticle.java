@@ -8,7 +8,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class applicationStatus {
+public class VolunteerArticle {
     private long id; // 게시물 고유 아이디
     private String title; // 게시물 제목
     private String volunteerPeriod; // 봉사 기간
@@ -23,7 +23,7 @@ public class applicationStatus {
     private String recruitment; // 모집 여부
 
     @Builder
-    public applicationStatus(long id, String title, String volunteerPeriod, String volunteerTime, String adPeriod, String volunteerPlace,
+    public VolunteerArticle(long id, String title, String volunteerPeriod, String volunteerTime, String adPeriod, String volunteerPlace,
                             int adPeople, int applicationPeople, String adOffice, String volunteerType, String content, String recruitment){
         this.id = id;
         this.title = title;
