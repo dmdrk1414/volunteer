@@ -48,7 +48,8 @@ public class VolunteerArticle {
     @Column(name = "content", updatable = false)
     private String content; // 게시물 내용
 
-    @Column(name = "recruitment", updatable =
+    @Column(name = "recruitment", updatable = false)
+    private String recruitment; // 모집 여부
 
     @Builder
     public VolunteerArticle(long id, String title, String volunteerPeriod, String volunteerTime, String adPeriod, String volunteerPlace,
