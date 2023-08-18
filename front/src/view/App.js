@@ -19,6 +19,7 @@ import ApplicationIndividualArticle from "./router/ApplicationIndividualArticle"
 
 // 지원 현황
 import ApplicationArticle from "./router/ApplicationArticle";
+import SignupFrom from "./router/SignupForm";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           path="/article/application-status/:articleId"
           element={<ApplicationIndividualArticle />}
         />
+        <Route path="/signup" element={<SignupFrom />} />
       </Routes>
     </Router>
   );
