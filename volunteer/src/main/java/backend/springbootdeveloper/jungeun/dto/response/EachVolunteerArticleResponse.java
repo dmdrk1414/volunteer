@@ -4,7 +4,7 @@ import backend.springbootdeveloper.jungeun.domain.VolunteerArticle;
 import lombok.Getter;
 
 @Getter
-public class VolunteerArticleResponse {
+public class EachVolunteerArticleResponse {
     private Long id;
     private String title;
     private String volunteerPeriod;
@@ -18,7 +18,7 @@ public class VolunteerArticleResponse {
     private String content;
     private String recruitment;
 
-    public VolunteerArticleResponse(VolunteerArticle volunteerArticle){
+    public EachVolunteerArticleResponse(VolunteerArticle volunteerArticle){
         this.id = volunteerArticle.getId();
         this.title = volunteerArticle.getTitle();
         this.volunteerPeriod = volunteerArticle.getVolunteerPeriod();
