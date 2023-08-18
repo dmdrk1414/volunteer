@@ -6,18 +6,22 @@
 
 // import router
 @import url(./router/Main.scss);
+@import url(./router/ApplicationIndividualArticle.scss);
 
 // import components
 @import url(./components/Manu.scss);
 @import url(./components/HomeContantComponents.scss);
 @import url(./components/AirticleContantComponents.scss);
 @import url(./components/IndividualArticleComponents.scss);
+@import url(./components/SignupContantComponents.scss);
+@import url(./components/CheckEmailComponents.scss);
 
 // import screen
 @import url(./screen/Home_contant.scss);
 @import url(./screen/Login_contant.scss);
 @import url(./screen/ApplicationArticle_contant.scss);
 @import url(./screen/VolunteerIndividualArticle_contant.scss);
+@import url(./screen/SignupForm_contant.scss);
 
 a {
   text-decoration: none;

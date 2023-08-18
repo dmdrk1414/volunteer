@@ -9,7 +9,10 @@ function ApplicationIndividualArticle() {
   return (
     <div>
       <Manu></Manu>
-      <IndividualArticleComponents></IndividualArticleComponents>
+      <div className="volunteer-individual-article-container container">
+        <div className="individual-title">제목</div>
+        <IndividualArticleComponents></IndividualArticleComponents>
+      </div>
     </div>
   );
 }

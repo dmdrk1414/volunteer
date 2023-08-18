@@ -20,7 +20,6 @@ function ApplicationArticle_contant() {
       .get(`${firebaseUrl}/article/application-status.json`)
       .then((response) => {
         setApplicationAriticleList(response.data);
-        console.log(response.data);
       })
       .catch((error) => console.log(error));
   };
@@ -39,7 +38,7 @@ function ApplicationArticle_contant() {
       </div>
       <div className="applications-container ">
         {applicationAriticleList.map((item, index) => (
-          <Link to={`/article/volunteers/${item.id}`} key={item.id}>
+          <Link to={`/article/application-status/${item.id}`} key={item.id}>
             <ApplicationArticleContantComponents key={index} data={item} />
           </Link>
         ))}
