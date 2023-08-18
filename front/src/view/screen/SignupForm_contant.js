@@ -5,18 +5,20 @@ import { Link } from "react-router-dom";
 // firebase
 import axios from "axios";
 import { firebaseUrl } from "../../api/firebaseUrl";
-import AirticleContantComponents from "../components/AirticleContantComponents";
+import SignupContantComponents from "../components/SignupContantComponents";
 
 function SignupForm_contant() {
   return (
     // 무조건 div는 하나
     <div className="signup-form-container container">
-      <div class="stepbar">
-        <div class="step1">1. 실명확인</div>
-        <div class="step2"></div>
-        <div class="step2text">2. 실명확인</div>
+      <div className="stepbar-container d-flex justify-content-center">
+        <div className="stepbar d-flex justify-content-between">
+          <div className="step1">1. 실명확인</div>
+          <div className="step2"></div>
+          <div className="step2text ">2. 실명확인</div>
+        </div>
       </div>
-      <div className="articles-container "></div>
+      <SignupContantComponents />
     </div>
   );
 }

@@ -1,22 +1,20 @@
 .signup-form-container {
+  margin-top: 30px;
   .stepbar {
-    position: relative;
-    left: 550px;
     background-color: silver;
-    width: 600px;
-    height: 100px;
-    top: 120px;
+    width: 400px;
+    height: 70px;
     border-radius: 10px;
     z-index: 1;
 
     .step1 {
       text-align: center;
-      font-size: 30px;
+      font-size: 25px;
       font-weight: bold;
       padding-top: 25px;
       background-color: #8392ed;
-      width: 280px;
-      height: 100px;
+      width: 180px;
+      height: 70px;
       border-radius: 10px;
       z-index: -1;
       position: absolute;
@@ -25,21 +23,18 @@
     .step2 {
       text-align: right;
       width: 0px;
-      border-left: 65px solid #8392ed;
-      border-top: 50px solid transparent;
-      border-bottom: 50px solid transparent;
+      border-left: 40px solid #8392ed;
+      border-top: 35px solid transparent;
+      border-bottom: 35px solid transparent;
       position: relative;
-      left: 274px;
+      left: 176px;
     }
 
     .step2text {
-      text-align: right;
-      font-size: 30px;
+      padding-right: 35px;
+      padding-top: 24px;
+      font-size: 25px;
       font-weight: bold;
-      padding-bottom: 100px;
-      padding-right: 50px;
-      position: relative;
-      bottom: 75px;
     }
   }
 }
