@@ -33,49 +33,50 @@ function VolunteerIndividualArticle_contant() {
       });
       console.log("post 완성");
     } catch {}
-    return (
-      // 무조건 div는 하나
-      <div className="volunteer-individual-article-container container">
-        <IndividualArticleComponents />
-        <form onSubmit={handleSubmit} className="volunteer-application-form ">
-          <div className="application-form-title">신청 현황에 추가하기</div>
-          <div className="form-container d-flex justify-content-around">
-            <div className="d-flex justify-content-around align-items-center">
-              이름
-            </div>
-            <input
-              className="application-custom-placeholder form-control "
-              type="name"
-              id="name"
-              name="name"
-              placeholder="이름"
-              value={name}
-              onChange={handleNameChange}
-              required
-            />
-            <div className="d-flex justify-content-around align-items-center">
-              전화 번호
-            </div>
-            <input
-              className="application-custom-placeholder form-control "
-              type="phonNum"
-              id="phonNum"
-              name="phonNum"
-              placeholder="전화번호"
-              value={phonNum}
-              onChange={handlePhonNumChange}
-              required
-            />
-            <div className="application-inner-form">
-              <button type="submit" className="application-btn form-control">
-                신청하기
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
-    );
   };
+
+  return (
+    // 무조건 div는 하나
+    <div className="volunteer-individual-article-container container">
+      <IndividualArticleComponents />
+      <form onSubmit={handleSubmit} className="volunteer-application-form ">
+        <div className="application-form-title">신청 현황에 추가하기</div>
+        <div className="form-container d-flex justify-content-around">
+          <div className="d-flex justify-content-around align-items-center">
+            이름
+          </div>
+          <input
+            className="application-custom-placeholder form-control "
+            type="name"
+            id="name"
+            name="name"
+            placeholder="이름"
+            value={name}
+            onChange={handleNameChange}
+            required
+          />
+          <div className="d-flex justify-content-around align-items-center">
+            전화 번호
+          </div>
+          <input
+            className="application-custom-placeholder form-control "
+            type="phonNum"
+            id="phonNum"
+            name="phonNum"
+            placeholder="전화번호"
+            value={phonNum}
+            onChange={handlePhonNumChange}
+            required
+          />
+          <div className="application-inner-form">
+            <button type="submit" className="application-btn form-control">
+              신청하기
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  );
 }
 
 /* eslint-disable-next-line  */

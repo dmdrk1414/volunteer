@@ -39,7 +39,9 @@ function ApplicationArticle_contant() {
       </div>
       <div className="applications-container ">
         {applicationAriticleList.map((item, index) => (
-          <ApplicationArticleContantComponents key={index} data={item} />
+          <Link to={`/article/volunteers/${item.id}`} key={item.id}>
+            <ApplicationArticleContantComponents key={index} data={item} />
+          </Link>
         ))}
       </div>
     </div>
