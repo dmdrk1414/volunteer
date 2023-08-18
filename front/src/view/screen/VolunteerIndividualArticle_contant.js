@@ -38,6 +38,7 @@ function VolunteerIndividualArticle_contant() {
   return (
     // 무조건 div는 하나
     <div className="volunteer-individual-article-container container">
+      <div className="individual-title">제목(모집중)</div>
       <IndividualArticleComponents />
       <form onSubmit={handleSubmit} className="volunteer-application-form ">
         <div className="application-form-title">신청 현황에 추가하기</div>

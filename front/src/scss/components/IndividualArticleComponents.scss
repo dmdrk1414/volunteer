@@ -1,8 +1,6 @@
 .volunteer-individual-article-container {
-  s .container-title {
-    margin-top: 80px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  .container-title {
+    margin-top: 30px;
     border-top: 1px solid black;
     font-weight: bold;
   }
@@ -13,7 +11,6 @@
         background-color: rgb(217, 217, 217);
         height: 30px;
         width: 200px;
-        border-top: 0.8px solid black;
         border-bottom: 0.8px solid black;
       }
 
