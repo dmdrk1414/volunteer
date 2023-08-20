@@ -1,7 +1,6 @@
 package backend.springbootdeveloper.jungeun.dto.response;
 
 import backend.springbootdeveloper.jungeun.domain.VolunteerArticle;
-import backend.springbootdeveloper.jungeun.domain.VolunteerList;
 import lombok.Builder;
 import lombok.Getter;
 
