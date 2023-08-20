@@ -1,9 +1,6 @@
 package backend.springbootdeveloper.jungeun.service;
 
 import backend.springbootdeveloper.jungeun.domain.VolunteerArticle;
-import backend.springbootdeveloper.jungeun.domain.VolunteerList;
-import backend.springbootdeveloper.jungeun.repository.ArticleRepository;
-import backend.springbootdeveloper.jungeun.repository.VolunteerListRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -13,14 +10,14 @@ import java.util.List;
 @Service
 public class VolunteerArticleService {
     private final ArticleService articleService;
-    public List<VolunteerList> findAll(){
+    public List<VolunteerArticle> findAll(){
         return articleService.getArticleOfVolunteer();
     }
 
 
-    public VolunteerList findById(long id){
-        List<VolunteerList> list = articleService.getArticleOfVolunteer();
-        for(VolunteerList article : list){
+    public VolunteerArticle findById(long id){
+        List<VolunteerArticle> list = articleService.getArticleOfVolunteer();
+        for(VolunteerArticle article : list){
             if(id == article.getId()){
                 return article;
             }
