@@ -1,6 +1,7 @@
 package backend.springbootdeveloper.jungeun.dto.response;
 
-import backend.springbootdeveloper.jungeun.domain.VolunteerList;
+
+import backend.springbootdeveloper.jungeun.domain.VolunteerArticle;
 import lombok.Getter;
 
 @Getter
@@ -13,13 +14,13 @@ public class VolunteerArticleResponse {
     private String volunteerPeriod;
     private String remainPeriod;
 
-    public VolunteerArticleResponse(VolunteerList volunteerList){
-        this.id = volunteerList.getId();
-        this.region = volunteerList.getRegion();
-        this.title = volunteerList.getTitle();
-        this.adOffice = volunteerList.getAdOffice();
-        this.adPeriod = volunteerList.getAdPeriod();
-        this.volunteerPeriod = volunteerList.getVolunteerPeriod();
-        this.remainPeriod = volunteerList.getRemainPeriod();
+    public VolunteerArticleResponse(VolunteerArticle volunteerArticle){
+        this.id = volunteerArticle.getId();
+        //this.region = volunteerArticle.getRegion();
+        this.title = volunteerArticle.getTitle();
+        this.adOffice = volunteerArticle.getAdOffice();
+        this.adPeriod = volunteerArticle.getAdPeriod();
+        this.volunteerPeriod = volunteerArticle.getVolunteerPeriod();
+        //this.remainPeriod = volunteerArticle.getRemainPeriod();
     }
 }
