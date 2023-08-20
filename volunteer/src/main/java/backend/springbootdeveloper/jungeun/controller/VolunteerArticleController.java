@@ -1,6 +1,8 @@
 package backend.springbootdeveloper.jungeun.controller;
 
+import backend.springbootdeveloper.jungeun.Util.TempDB;
 import backend.springbootdeveloper.jungeun.domain.VolunteerArticle;
+import backend.springbootdeveloper.jungeun.domain.VolunteerList;
 import backend.springbootdeveloper.jungeun.dto.response.EachVolunteerArticleResponse;
 import backend.springbootdeveloper.jungeun.dto.response.VolunteerArticleResponse;
 import backend.springbootdeveloper.jungeun.service.VolunteerArticleService;
@@ -21,18 +23,19 @@ public class VolunteerArticleController {
 
     @GetMapping("/article/volunteer")
     public ResponseEntity<List<VolunteerArticleResponse>> findAllVolunteerList(){
-        List<VolunteerArticleResponse> volunteerList = volunteerArticleService.findAll()
+        List<VolunteerArticleResponse> article = volunteerArticleService.findAll()
                 .stream()
-                .map(VolunteerArticleResponse::new)
+                .map(article -> new EachVolunteerArticleResponse(article))
+                //.map(VolunteerArticleResponse::new)
                 .toList();
-        return ResponseEntity.ok().body(volunteerList);
+        return ResponseEntity.ok().body(article);
     }
 
     @GetMapping("/article/volunteer/{id}")
     public ResponseEntity<EachVolunteerArticleResponse> findAllVolunteerArticleById(@PathVariable long id){
-        VolunteerArticle volunteerArticle = volunteerArticleService.findById(id);
-
+        VolunteerArticle article = volunteerArticleService.findById(id);
+        //TempDB tempDB = new TempDB();
         return ResponseEntity.ok()
-                .body(new EachVolunteerArticleResponse(volunteerArticle));
+                .body(new EachVolunteerArticleResponse(article));
     }
 }
