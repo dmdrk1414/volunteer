@@ -1,7 +1,6 @@
 package backend.springbootdeveloper.jungeun.Util;
 
 import backend.springbootdeveloper.jungeun.domain.VolunteerArticle;
-import backend.springbootdeveloper.jungeun.domain.VolunteerList;
 import net.minidev.json.JSONArray;
 import net.minidev.json.JSONObject;
 import net.minidev.json.parser.JSONParser;
@@ -20,8 +19,8 @@ import java.util.List;
 public class TempDB {
     static final String VOLUNTEER_PATH = "classpath:config/json/volunteerTable.json";
 
-    public List<VolunteerList> getVolunteer(){
-        List<VolunteerList> Data = new ArrayList<>();
+    public List<VolunteerArticle> getVolunteer(){
+        List<VolunteerArticle> Data = new ArrayList<>();
 
         try {
             JSONParser parser = new JSONParser();
@@ -34,21 +33,30 @@ public class TempDB {
                 JSONObject element = (JSONObject) obj;
                 Long id = (Long) element.get("id");
                 String title = (String) element.get("title");
-                String region = (String) element.get("region");
-                String adOffice = (String) element.get("adOffice");
-                String adPeriod = (String) element.get("adPeriod");
                 String volunteerPeriod = (String) element.get("volunteerPeriod");
-                String remainPeriod = (String) element.get("remainPeriod");
+                String volunteerTime = (String) element.get("volunteerTime");
+                String adPeriod = (String) element.get("adPeriod");
+                String volunteerPlace = (String) element.get("volunteerPlace");
+                int adPeople = (int) element.get("adPeople");
+                int applicationPeople = (int) element.get("applicationPeople");
+                String adOffice = (String) element.get("adOffice");
+                String volunteerType = (String) element.get("volunteerType");
+                String content = (String) element.get("content");
+                String recruitment = (String) element.get("recruitment");
 
-
-                VolunteerList volunteerlist = VolunteerList.builder()
+                VolunteerArticle volunteerlist = VolunteerArticle.builder()
                         .id(id)
                         .title(title)
-                        .region(region)
-                        .adOffice(adOffice)
-                        .adPeriod(adPeriod)
                         .volunteerPeriod(volunteerPeriod)
-                        .remainPeriod(remainPeriod)
+                        .volunteerTime(volunteerTime)
+                        .adPeriod(adPeriod)
+                        .volunteerPlace(volunteerPlace)
+                        .adPeople(adPeople)
+                        .applicationPeople(applicationPeople)
+                        .adOffice(adOffice)
+                        .volunteerType(volunteerType)
+                        .content(content)
+                        .recruitment(recruitment)
                         .build();
 
                 Data.add(volunteerlist);
