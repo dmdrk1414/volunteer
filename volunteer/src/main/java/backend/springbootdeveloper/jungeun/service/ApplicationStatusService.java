@@ -1,7 +1,7 @@
 package backend.springbootdeveloper.jungeun.service;
 
 import backend.springbootdeveloper.jungeun.domain.ApplicationStatus;
-import backend.springbootdeveloper.jungeun.repository.ApplicationStatusRepository;
+import backend.springbootdeveloper.jungeun.repository.ApplicationStatusListRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -9,9 +9,9 @@ import java.util.List;
 @RequiredArgsConstructor
 @Service
 public class ApplicationStatusService {
-    private final ApplicationStatusRepository applicationStatusRepository;
+    private final ApplicationStatusListRepository applicationStatusListRepository;
 
     public List<ApplicationStatus> findAll(){
-        return applicationStatusRepository.findAll();
+        return applicationStatusListRepository.findAll();
     }
 }
