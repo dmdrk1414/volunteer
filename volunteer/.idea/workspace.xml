@@ -4,15 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1af94c8-3789-4afd-a3fe-16e18b7b9101" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="f1af94c8-3789-4afd-a3fe-16e18b7b9101" name="Changes" comment="[ADD] 로그인 구현 코드">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/SpringBootDeveloperApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/SpringBootDeveloperApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/config/TokenAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/config/TokenAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/config/WebOAuthSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/config/WebOAuthSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/config/jwt/JwtProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/config/jwt/JwtProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/config/jwt/TokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/config/jwt/TokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/config/oauth/OAuth2AuthorizationRequestBasedOnCookieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/config/oauth/OAuth2AuthorizationRequestBasedOnCookieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/config/oauth/OAuth2SuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/config/oauth/OAuth2SuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/config/oauth/OAuth2UserCustomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/config/oauth/OAuth2UserCustomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/controller/TokenApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/controller/TokenApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/controller/UserApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/controller/UserApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/controller/UserViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/controller/UserViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/domain/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/domain/RefreshToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/domain/RefreshToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/dto/AddArticleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/dto/AddArticleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/dto/AddUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/dto/AddUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/dto/CreateAccessTokenRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/dto/CreateAccessTokenRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/dto/CreateAccessTokenResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/dto/CreateAccessTokenResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/dto/UserLoginResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/dto/UserLoginResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/repository/RefreshTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/repository/RefreshTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/service/RefreshTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/service/RefreshTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/service/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/service/TokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/service/UserDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/service/UserDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back/springbootdeveloper/daewon/util/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/util/CookieUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +57,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -44,7 +71,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringBootDeveloperApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="volunteer" />
       <method v="2">
@@ -58,13 +92,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootDeveloperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="backend.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="back.springbootdeveloper.jeongeun.SpringBootDeveloperApplication" />
+    <configuration name="SpringBootDeveloperApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="volunteer.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="backend.springbootdeveloper.daewon.SpringBootDeveloperApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootDeveloperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="volunteer.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="backend.springbootdeveloper.daewon.SpringBootDeveloperApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringBootDeveloperApplication" />
+      <item itemvalue="Spring Boot.SpringBootDeveloperApplication (1)" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,11 +119,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692609770521</updated>
-      <workItem from="1692609772729" duration="401000" />
+      <workItem from="1692609772729" duration="1720000" />
     </task>
+    <task id="LOCAL-00001" summary="[ADD] 로그인 구현 코드">
+      <option name="closed" value="true" />
+      <created>1692610333303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692610333303</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[ADD] 로그인 구현 코드" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] 로그인 구현 코드" />
   </component>
 </project>
