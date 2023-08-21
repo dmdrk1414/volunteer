@@ -25,8 +25,8 @@ public class VolunteerArticleController {
     public ResponseEntity<List<VolunteerArticleResponse>> findAllVolunteerList(){
         List<VolunteerArticleResponse> article = volunteerArticleService.findAll()
                 .stream()
-                .map(article -> new EachVolunteerArticleResponse(article))
-                //.map(VolunteerArticleResponse::new)
+                //.map(article -> new EachVolunteerArticleResponse(article))
+                .map(VolunteerArticleResponse::new)
                 .toList();
         return ResponseEntity.ok().body(article);
     }
