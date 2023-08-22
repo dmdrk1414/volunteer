@@ -14,7 +14,7 @@ public class TestController {
     @GetMapping("/test")
     public String testController(){
         volunteerListRepository.save(VolunteerArticle.builder()
-                .title("김대원 바보")
+                .title("봉사모집")
                 .volunteerPeriod("내일까지")
                 .volunteerTime("4시간")
                 .adPeriod("내일까지")
