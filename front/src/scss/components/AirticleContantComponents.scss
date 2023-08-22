@@ -1,0 +1,45 @@
+.airticle_contant {
+  margin-top: 40px;
+  width: 80%;
+  height: 500px;
+
+  .article-subject {
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding-bottom: 8px;
+  }
+
+  .articles-container {
+    width: auto;
+    height: 70px;
+    .article-items {
+      font-size: 23px;
+      font-weight: bold;
+      border-bottom: 1px solid black;
+      .item-day {
+        width: 100px;
+        height: 100px;
+        div {
+          width: 90px;
+          height: 50px;
+          border-radius: 10px;
+          background-color: rgb(149, 184, 237);
+        }
+      }
+      .item-contant {
+        height: 100%;
+        margin-left: 10px;
+        .item-contant-info {
+          margin-top: 10px;
+          font-size: 15px;
+
+          div {
+            margin-right: 30px;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}

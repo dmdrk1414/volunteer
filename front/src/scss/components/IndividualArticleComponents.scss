@@ -1,0 +1,32 @@
+.volunteer-individual-article-container {
+  .container-title {
+    margin-top: 30px;
+    border-top: 1px solid black;
+    font-weight: bold;
+  }
+
+  .items-container {
+    .items {
+      .items-contant-title {
+        background-color: rgb(217, 217, 217);
+        height: 30px;
+        width: 200px;
+        border-bottom: 0.8px solid black;
+      }
+
+      .items-contant {
+        padding-left: 10px;
+        background-color: rgb(250, 251, 251);
+        height: 30px;
+        width: 500px;
+        border-bottom: 0.7px solid black;
+      }
+    }
+  }
+
+  .individual-contant {
+    margin-top: 10px;
+    font-size: 18px;
+    height: 380px;
+  }
+}

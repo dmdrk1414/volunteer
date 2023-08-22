@@ -1,0 +1,45 @@
+// basic scss.file
+@import url(./reset.scss);
+
+// import router
+@import url(./router/Main.scss);
+
+// import router
+@import url(./router/Main.scss);
+@import url(./router/ApplicationIndividualArticle.scss);
+
+// import components
+@import url(./components/Manu.scss);
+@import url(./components/HomeContantComponents.scss);
+@import url(./components/AirticleContantComponents.scss);
+@import url(./components/IndividualArticleComponents.scss);
+@import url(./components/SignupContantComponents.scss);
+@import url(./components/CheckEmailComponents.scss);
+
+// import screen
+@import url(./screen/Home_contant.scss);
+@import url(./screen/Login_contant.scss);
+@import url(./screen/ApplicationArticle_contant.scss);
+@import url(./screen/VolunteerIndividualArticle_contant.scss);
+@import url(./screen/SignupForm_contant.scss);
+
+a {
+  text-decoration: none;
+  color: #6d6460;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: rgb(243, 244, 245);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,34 @@
+.contant-container-items {
+  width: 20%;
+  height: 80%;
+  background-color: white;
+  border-radius: 10px;
+
+  .item-region {
+    height: 15%;
+    color: aliceblue;
+    background-color: tomato;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+  }
+  .item-contant {
+    margin-top: 15px;
+    text-align: center;
+    height: 100%;
+    .items {
+      font-size: 110%;
+      width: 100%;
+      height: 80%;
+      margin: 5px;
+
+      .items-contant {
+        width: 90%;
+        text-align: left;
+        font-size: 80%;
+        margin-top: 30px;
+        margin-left: 20px;
+      }
+    }
+  }
+}

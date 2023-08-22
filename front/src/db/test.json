@@ -1,0 +1,156 @@
+{
+  "main": {
+    "east": {
+      "region": "동 구",
+      "title": "동구 떡입마을 방범대 봉사활동",
+      "ad_preriod": "2023-07-28 ~ 2023-08-03",
+      "volunteer_period": "2023-08-08 ~ 2023008-08",
+      "numOfRecruits": 10
+    },
+    "west": {
+      "region": "서 구",
+      "title": "서구 떡입마을 방범대 봉사활동",
+      "ad_preriod": "2023-07-28 ~ 2023-08-03",
+      "volunteer_period": "2023-08-08 ~ 2023008-08",
+      "numOfRecruits": 10
+    },
+    "south": {
+      "region": "남 구",
+      "title": "남구 떡입마을 방범대 봉사활동",
+      "ad_preriod": "2023-07-28 ~ 2023-08-03",
+      "volunteer_period": "2023-08-08 ~ 2023008-08",
+      "numOfRecruits": 10
+    },
+    "north": {
+      "region": "북 구",
+      "title": "북구 떡입마을 방범대 봉사활동",
+      "ad_preriod": "2023-07-28 ~ 2023-08-03",
+      "volunteer_period": "2023-08-08 ~ 2023008-08",
+      "numOfRecruits": 10
+    }
+  },
+  "article": {
+    "volunteer": [
+      {
+        "id": 1,
+        "region": "[동구]",
+        "title": "떡입마을 방범대 봉사활동",
+        "ad_office": "시민종합복지회관",
+        "ad_preriod": "2023-07-28 ~ 2023-08-03",
+        "volunteer_period": "2023-08-08 ~ 2023008-08",
+        "remainPeriod": 0
+      },
+      {
+        "id": 2,
+        "region": "[동구]",
+        "title": "해오름관 봉사활동 주의",
+        "ad_office": "시민종합복지회관",
+        "ad_preriod": "2023-07-28 ~ 2023-08-03",
+        "volunteer_period": "2023-08-08 ~ 2023008-08",
+        "remainPeriod": 1
+      },
+      {
+        "id": 3,
+        "region": "[서구]",
+        "title": "떡입마을 방범대 봉사활동",
+        "ad_office": "시민종합복지회관",
+        "ad_preriod": "2023-07-28 ~ 2023-08-03",
+        "volunteer_period": "2023-08-08 ~ 2023008-08",
+        "remainPeriod": 0
+      },
+      {
+        "id": 4,
+        "region": "[서구]",
+        "title": "해오름관 봉사활동 주의",
+        "ad_office": "시민종합복지회관",
+        "ad_preriod": "2023-07-28 ~ 2023-08-03",
+        "volunteer_period": "2023-08-08 ~ 2023008-08",
+        "remainPeriod": 1
+      },
+      {
+        "id": 5,
+        "region": "[남구]",
+        "title": "떡입마을 방범대 봉사활동",
+        "ad_office": "시민종합복지회관",
+        "ad_preriod": "2023-07-28 ~ 2023-08-03",
+        "volunteer_period": "2023-08-08 ~ 2023008-08",
+        "remainPeriod": 0
+      },
+      {
+        "id": 6,
+        "region": "[남구]",
+        "title": "해오름관 봉사활동 주의",
+        "ad_office": "시민종합복지회관",
+        "ad_preriod": "2023-07-28 ~ 2023-08-03",
+        "volunteer_period": "2023-08-08 ~ 2023008-08",
+        "remainPeriod": 1
+      },
+      {
+        "id": 7,
+        "region": "[북구]",
+        "title": "떡입마을 방범대 봉사활동",
+        "ad_office": "시민종합복지회관",
+        "ad_preriod": "2023-07-28 ~ 2023-08-03",
+        "volunteer_period": "2023-08-08 ~ 2023008-08",
+        "remainPeriod": 0
+      },
+      {
+        "id": 8,
+        "region": "[북구]",
+        "title": "해오름관 봉사활동 주의",
+        "ad_office": "시민종합복지회관",
+        "ad_preriod": "2023-07-28 ~ 2023-08-03",
+        "volunteer_period": "2023-08-08 ~ 2023008-08",
+        "remainPeriod": 1
+      }
+    ],
+    "application-status": [
+      {
+        "id": 1,
+        "title": "[동구] 떡입마을 방범대 봉사활동"
+      },
+      {
+        "id": 2,
+        "title": "[서구] 떡입마을 방범대 봉사활동"
+      },
+      {
+        "id": 3,
+        "title": "[남구] 떡입마을 방범대 봉사활동"
+      },
+      {
+        "id": 4,
+        "title": "[북구] 떡입마을 방범대 봉사활동"
+      }
+    ],
+    "volunteers": {
+      "1": {
+        "id": 1,
+        "title": "떡입마을 방범대 봉사활동",
+        "volunteer_period": "2023-07-28 ~ 2023-08-03",
+        "volunteer_time": "3시간",
+        "ad_period": "모집 기간",
+        "volunteer": "떡입마을",
+        "ad_people": "10",
+        "application_people": "20",
+        "ad_office": "떡입마을 회관",
+        "volunteer_type": "떡입마을 방범대",
+        "content": "떡입마을 방범대 봉사활동 내용",
+        "recruitment": "모집중"
+      },
+      "2": {
+        "id": 2,
+        "title": "게시물 제목",
+        "volunteer_period": "봉사 기간",
+        "volunteer_time": "봉사 시간",
+        "ad_period": "모집 기간",
+        "volunteer": "봉사 장소",
+        "ad_people": "모집 인원",
+        "application_people": "신청 인원",
+        "ad_office": "모집 기관",
+        "volunteer_type": "봉사자 유형",
+        "content": "게시물 내용",
+        "recruitment": "모집중"
+      }
+    }
+  }
+}

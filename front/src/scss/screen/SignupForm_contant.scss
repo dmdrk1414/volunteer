@@ -1,0 +1,40 @@
+.signup-form-container {
+  margin-top: 30px;
+  .stepbar {
+    background-color: silver;
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+    z-index: 1;
+
+    .step1 {
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+      padding-top: 25px;
+      background-color: #8392ed;
+      width: 180px;
+      height: 70px;
+      border-radius: 10px;
+      z-index: -1;
+      position: absolute;
+    }
+
+    .step2 {
+      text-align: right;
+      width: 0px;
+      border-left: 40px solid #8392ed;
+      border-top: 35px solid transparent;
+      border-bottom: 35px solid transparent;
+      position: relative;
+      left: 176px;
+    }
+
+    .step2text {
+      padding-right: 35px;
+      padding-top: 24px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+  }
+}

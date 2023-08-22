@@ -1,0 +1,58 @@
+.login-container {
+  height: 600px;
+  .login-inside {
+    .login-title {
+      color: #91938d;
+      font-family: "semibold";
+      text-align: left;
+      margin-bottom: 20px;
+      margin-top: 120px;
+      width: 100%;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+    .login-form {
+      .login-inner-form {
+        width: 400px;
+        margin-bottom: 20px;
+
+        .login-custom-placeholder {
+          height: 50px;
+          background-color: rgb(229, 235, 248);
+          border: 0.2px solid rgb(0, 0, 0, 0.4);
+          &::placeholder {
+            text-align: center;
+          }
+        }
+
+        .login-btn {
+          background-color: tomato;
+          color: white;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .google-login-container {
+      width: 400px;
+      height: 40px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: 0.2px solid rgb(0, 0, 0, 0.4);
+
+      .google-image {
+        height: 40px;
+        width: 40px;
+      }
+
+      .google-text {
+        margin-top: 11px;
+        margin-right: 11px;
+        margin-left: 5px;
+        font-weight: bold;
+      }
+    }
+  }
+}

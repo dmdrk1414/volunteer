@@ -1,0 +1,31 @@
+.signup-contant-container {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  padding-top: 10px;
+
+  .input-forms-title {
+    width: 100px;
+  }
+  .form-custom {
+    position: relative;
+    left: 20px;
+  }
+
+  .input-forms-container {
+    margin-top: 10px;
+    .placehold {
+      width: 300px;
+      margin: 0px 20px 0px 20px;
+    }
+
+    button {
+      border-radius: 5px;
+    }
+  }
+  .signup-button-container {
+    margin-top: 20px;
+    button {
+      border-radius: 5px;
+    }
+  }
+}
