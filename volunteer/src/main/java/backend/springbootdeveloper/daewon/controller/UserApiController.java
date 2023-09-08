@@ -18,22 +18,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 public class UserApiController {
 
     private final UserService userService;
-    private final TokenService tokenService;
+    // private final TokenService tokenService;
 
-    @PostMapping("/signup")
+    @PostMapping("/signup") // 회원가입
     public String signup(AddUserRequest request){
         userService.save(request);
         return "redirect:/login";
-    }
-
-    @PostMapping("/login/123")
-    public String login(@RequestBody AddUserRequest request){
-//        User user = userService.findByEmail(request.getEmail());
-//        String email = user.getEmail();
-        System.out.println();
-        System.out.println("sdfdsfsdf");
-        //return tokenService.NewAccessToken("1@1");
-        return "123";
     }
 
     @GetMapping("/logout")

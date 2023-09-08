@@ -9,10 +9,6 @@ public class UserViewController {
     public String login(){
         return "login";
     }
-    @GetMapping("/login/google")
-    public String googlelogin(){
-        return "googlelogin";
-    }
     @GetMapping("/signup")
     public String signup(){
         return "signup";
@@ -20,5 +16,9 @@ public class UserViewController {
     @GetMapping("/articles")
     public String articles(){
         return "articles";
+    }
+    @GetMapping("/login/google")
+    public String googlelogin(){
+        return "googlelogin";
     }
 }

@@ -34,20 +34,18 @@ public class User implements UserDetails {
     @Column(name = "nickname", unique = true)
     private String nickname; //= email.substring(toString().lastIndexOf("@"));
 
-    // 생성자에 nickname 추가.
     @Builder
-    public User(String email, String password, String nickname) {
+    public User(String email, String password) {
         this.email = email;
         this.password = password;
-        this.nickname = nickname;
     }
 
-    // 사용자 이름 변경 메서드
-    public User update(String nickname) {
-        this.nickname = nickname;
-
-        return this;
-    }
+  // 사용자 이름 변경 메서드
+  //  public User update(String nickname) {
+ //       this.nickname = nickname;
+//
+ //       return this;
+ //   }
     // 권한 관련 ---------------------------------------
 
     // 사용자가 가지고 있는 권한의 목록을 반환합니다.
