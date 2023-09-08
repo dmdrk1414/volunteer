@@ -1,6 +1,6 @@
 package backend.springbootdeveloper.jungeun.dto.response;
 
-import backend.springbootdeveloper.jungeun.domain.VolunteerArticle;
+import backend.springbootdeveloper.jungeun.domain.ApplicationStatus;
 import lombok.Builder;
 import lombok.Getter;
 
@@ -20,7 +20,7 @@ public class EachApplicationStatusResponse {
     private String recruitment;
 
     @Builder
-    public EachApplicationStatusResponse(VolunteerArticle volunteerArticle){
+    public EachApplicationStatusResponse(ApplicationStatus volunteerArticle){
         this.id = volunteerArticle.getId();
         this.title = volunteerArticle.getTitle();
         this.volunteerPeriod = volunteerArticle.getVolunteerPeriod();
