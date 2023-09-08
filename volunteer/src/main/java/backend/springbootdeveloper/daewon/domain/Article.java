@@ -5,11 +5,7 @@ import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.springframework.data.annotation.CreatedDate;
-import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
-
-import java.time.LocalDateTime;
 
 @EntityListeners(AuditingEntityListener.class)
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
@@ -25,11 +21,8 @@ public class Article {
     @Column(name = "email", nullable = false)
     private String email;
 
-    @Column(name = "nickname", nullable = false)
-    private String nickname;
     @Builder // JWT 로그인
-    public Article(String email, String nickname){
+    public Article(String email){
         this.email = email;
-        this.nickname = nickname;
     }
 }

@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1af94c8-3789-4afd-a3fe-16e18b7b9101" name="Changes" comment="[Feat] 로그인 구현 코드">
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/config/WebSecurityConfig.java" afterDir="false" />
+    <list default="true" id="f1af94c8-3789-4afd-a3fe-16e18b7b9101" name="Changes" comment="[Feat] 로그인 구현 수정">
       <change afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/config/WebOAuthSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/config/oauth/OAuth2AuthorizationRequestBasedOnCookieRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/config/oauth/OAuth2SuccessHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/config/oauth/OAuth2UserCustomService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/controller/UserApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/controller/UserApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/controller/UserViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/controller/UserViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/springbootdeveloper/daewon/util/CookieUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +88,7 @@
       <workItem from="1692609772729" duration="2506000" />
       <workItem from="1693669230669" duration="8865000" />
       <workItem from="1693982316184" duration="105000" />
-      <workItem from="1694177302312" duration="436000" />
+      <workItem from="1694177302312" duration="3347000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD] 로그인 구현 코드">
       <option name="closed" value="true" />
@@ -119,15 +106,35 @@
       <option name="project" value="LOCAL" />
       <updated>1692612221316</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[Feat] 로그인 구현 수정">
+      <option name="closed" value="true" />
+      <created>1694178179049</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694178179049</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[ADD] 로그인 구현 코드" />
     <MESSAGE value="[Feat] 로그인 구현 코드" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Feat] 로그인 구현 코드" />
+    <MESSAGE value="[Feat] 로그인 구현 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Feat] 로그인 구현 수정" />
   </component>
 </project>
