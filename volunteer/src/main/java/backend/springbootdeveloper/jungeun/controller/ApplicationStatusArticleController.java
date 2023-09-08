@@ -18,14 +18,14 @@ import java.util.List;
 public class ApplicationStatusArticleController {
     private final ApplicationStatusService applicationStatusService;
 
-    @GetMapping("/article/application-status")
-    public ResponseEntity<List<ApplicationStatusResponse>> findAllApplicationStatusList(){
+//    @GetMapping("/article/application-status")
+//    public ResponseEntity<List<ApplicationStatusResponse>> findAllApplicationStatusList(){
 //        List<ApplicationStatusResponse> applicationStatusResponseList = applicationStatusService.findAll()
 //                .stream()
 //                .map(ApplicationStatusResponse::new)
 //                .toList();
 //        return ResponseEntity.ok().body(applicationStatusResponseList);
-    }
+//    }
 
     @GetMapping("/article/application-status/{id}")
     public ResponseEntity<EachApplicationStatusResponse> findAllApplicationStatusArticleById(@PathVariable long id){
