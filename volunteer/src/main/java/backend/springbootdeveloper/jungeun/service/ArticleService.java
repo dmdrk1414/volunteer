@@ -13,7 +13,7 @@ public class ArticleService {
         this.articleRepository = new JpaArticleRepository();
     }
 
-    public List<VolunteerArticle> getArticleOfVolunteer(){
-        return articleRepository.findAllOfVolunteerTable();
-    }
+//    public List<VolunteerArticle> getArticleOfVolunteer(){
+//        return articleRepository.findAllOfVolunteerTable();
+//    }
 }
