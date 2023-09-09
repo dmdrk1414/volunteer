@@ -7,12 +7,12 @@ import lombok.Getter;
 @Getter
 public class VolunteerArticleResponse {
     private long id;
-    private String region;
+    //private String region;
     private String title;
     private String adOffice;
     private String adPeriod;
     private String volunteerPeriod;
-    private String remainPeriod;
+    //private String remainPeriod;
 
     public VolunteerArticleResponse(VolunteerArticle volunteerArticle){
         this.id = volunteerArticle.getId();

@@ -21,8 +21,8 @@ public class VolunteerList {
     @Column(name = "title", nullable = false)
     private String title;
 
-    @Column(name = "region", nullable = false)
-    private String region;
+//    @Column(name = "region", nullable = false)
+//    private String region;
 
     @Column(name = "adOffice", nullable = false)
     private String adOffice;
@@ -33,17 +33,15 @@ public class VolunteerList {
     @Column(name = "volunteerPeriod", nullable = false)
     private String volunteerPeriod;
 
-    @Column(name = "remainPeriod", nullable = false)
-    private String remainPeriod;
+//    @Column(name = "remainPeriod", nullable = false)
+//    private String remainPeriod;
 
     @Builder
-    public VolunteerList(long id, String title, String region, String adOffice, String adPeriod, String volunteerPeriod, String remainPeriod){
+    public VolunteerList(long id, String title, String adOffice, String adPeriod, String volunteerPeriod){
         this.id = id;
         this.title = title;
-        this.region = region;
         this.adOffice = adOffice;
         this.adPeriod = adPeriod;
         this.volunteerPeriod = volunteerPeriod;
-        this.remainPeriod = remainPeriod;
     }
 }

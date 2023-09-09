@@ -15,8 +15,13 @@ public class VolunteerArticleService {
         return volunteerListRepository.findAll();
     }
 
+//    public List<VolunteerArticle> getArticleOfVolunteer(){
+//        List<VolunteerArticle> volunteerArticleList = volunteerListRepository.findAll();
+//        return
+//    }
+
     public VolunteerArticle findById(long id){
-//        List<VolunteerArticle> list = articleService.getArticleOfVolunteer();
+//        List<VolunteerArticle> list = VolunteerArticleService.findAll();
 //        for(VolunteerArticle article : list){
 //            if(id == article.getId()){
 //                return article;
