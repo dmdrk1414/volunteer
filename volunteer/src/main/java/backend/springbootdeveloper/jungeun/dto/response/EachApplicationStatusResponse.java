@@ -12,8 +12,8 @@ public class EachApplicationStatusResponse {
     private String volunteerTime;
     private String adPeriod;
     private String volunteerPlace;
-    private int adPeople;
-    private int applicationPeople;
+    private String adPeople;
+    private String applicationPeople;
     private String adOffice;
     private String volunteerType;
     private String content;
