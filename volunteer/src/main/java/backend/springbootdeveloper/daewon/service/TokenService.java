@@ -1,9 +1,8 @@
 package backend.springbootdeveloper.daewon.service;
 
+import lombok.RequiredArgsConstructor;
 import backend.springbootdeveloper.daewon.config.jwt.TokenProvider;
 import backend.springbootdeveloper.daewon.domain.User;
-import backend.springbootdeveloper.daewon.repository.UserRepository;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.time.Duration;
@@ -15,23 +14,16 @@ public class TokenService {
     private final TokenProvider tokenProvider;
     private final RefreshTokenService refreshTokenService;
     private final UserService userService;
-    private final UserRepository userRepository;
 
-    public String createNewAccessToken(String refreshToken){
-        if(!tokenProvider.validToken(refreshToken)){
+    public String createNewAccessToken(String refreshToken) {
+        // 토큰 유효성 검사에 실패하면 예외 발생
+        if(!tokenProvider.validToken(refreshToken)) {
             throw new IllegalArgumentException("Unexpected token");
         }
 
         Long userId = refreshTokenService.findByRefreshToken(refreshToken).getUserId();
         User user = userService.findById(userId);
 
-        return tokenProvider.generateToken(user, Duration.ofHours(2));
-    }
-
-    // TODO : 매게변수 리프레쉬 토큰 필요함 미래에 만들기
-    public String NewAccessToken(String email){
-        User user = userRepository.findByEmail(email)
-                .orElseThrow(() -> new IllegalArgumentException("Unexpected user"));
         return tokenProvider.generateToken(user, Duration.ofHours(2));
     }
 }

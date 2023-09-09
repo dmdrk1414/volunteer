@@ -1,4 +1,4 @@
-package backend.springbootdeveloper.daewon.domain;
+/*package backend.springbootdeveloper.daewon.domain;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
@@ -15,14 +15,15 @@ public class Article {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", updatable = false)
-    private Long id;
 
     @Column(name = "email", nullable = false)
     private String email;
+
+    @Column(name = "password", nullable = false)
+    private String password;
 
     @Builder // JWT 로그인
     public Article(String email){
         this.email = email;
     }
-}
+}*/

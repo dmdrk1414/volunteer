@@ -1,9 +1,9 @@
 package backend.springbootdeveloper.daewon.controller;
 
+import lombok.RequiredArgsConstructor;
 import backend.springbootdeveloper.daewon.dto.CreateAccessTokenRequest;
 import backend.springbootdeveloper.daewon.dto.CreateAccessTokenResponse;
 import backend.springbootdeveloper.daewon.service.TokenService;
-import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 @RestController
 public class TokenApiController {
+
     private final TokenService tokenService;
-    // 리프레쉬 토큰 받고
+
     @PostMapping("/api/token")
-    public ResponseEntity<CreateAccessTokenResponse> createNewAccessToken
-            (@RequestBody CreateAccessTokenRequest request){
+    public ResponseEntity<CreateAccessTokenResponse> createNewAccessToken(@RequestBody CreateAccessTokenRequest request) {
         String newAccessToken = tokenService.createNewAccessToken(request.getRefreshToken());
 
         return ResponseEntity.status(HttpStatus.CREATED)

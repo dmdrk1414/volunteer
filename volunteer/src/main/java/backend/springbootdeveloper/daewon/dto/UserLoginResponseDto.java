@@ -1,4 +1,4 @@
-package backend.springbootdeveloper.daewon.dto;
+/*package backend.springbootdeveloper.daewon.dto;
 
 
 import lombok.*;
@@ -11,13 +11,11 @@ import lombok.*;
 public class UserLoginResponseDto {
 
     private String accessToken;
-    private String name;
 
-    public static UserLoginResponseDto from(String accessToken, String name) {
+    public static UserLoginResponseDto from(String accessToken) {
         return UserLoginResponseDto.builder()
                 .accessToken(accessToken)
-                .name(name)
                 .build();
     }
 
-}
+}*/

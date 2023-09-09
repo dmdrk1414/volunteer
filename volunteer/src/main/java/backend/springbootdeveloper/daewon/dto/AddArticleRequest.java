@@ -1,4 +1,4 @@
-package backend.springbootdeveloper.daewon.dto;
+/*package backend.springbootdeveloper.daewon.dto;
 
 import backend.springbootdeveloper.daewon.domain.Article;
 import lombok.AllArgsConstructor;
@@ -17,4 +17,4 @@ public class AddArticleRequest {
                 .email(email)
                 .build();
     }
-}
+}*/
