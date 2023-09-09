@@ -32,10 +32,10 @@ public class ApplicationStatus {
     private String volunteerPlace; // 봉사 장소
 
     @Column(name = "adPeople", nullable = false)
-    private int adPeople; // 모집 인원
+    private String adPeople; // 모집 인원
 
     @Column(name = "applicationPeople", nullable = false)
-    private int applicationPeople; // 신청 인원
+    private String applicationPeople; // 신청 인원
 
     @Column(name = "adOffice", nullable = false)
     private String adOffice; // 모집 기관
@@ -51,7 +51,7 @@ public class ApplicationStatus {
 
     @Builder
     public ApplicationStatus(long id, String title, String volunteerPeriod, String volunteerTime, String adPeriod, String volunteerPlace,
-                             int adPeople, int applicationPeople, String adOffice, String volunteerType, String content, String recruitment){
+                             String adPeople, String applicationPeople, String adOffice, String volunteerType, String content, String recruitment){
         this.id = id;
         this.title = title;
         this.volunteerPeriod = volunteerPeriod;
