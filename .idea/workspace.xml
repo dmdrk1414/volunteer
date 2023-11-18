@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad467a90-ccf3-4de6-bc2a-4174c0c7e585" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/SpringBootDeveloperApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/SpringBootDeveloperApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/config/TokenAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/config/TokenAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/config/jwt/JwtProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/config/jwt/JwtProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/config/jwt/TokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/config/jwt/TokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/controller/TokenApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/controller/TokenApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/controller/UserApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/controller/UserApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/controller/UserViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/controller/UserViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/domain/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/domain/RefreshToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/domain/RefreshToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/dto/AddArticleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/dto/AddArticleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/dto/AddUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/dto/AddUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/dto/UserLoginResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/dto/UserLoginResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/service/RefreshTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/service/RefreshTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/service/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/service/TokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/service/UserDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/service/UserDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/java/backend/springbootdeveloper/daewon/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteer/src/main/resources/data.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UAGnAkjvAleqlH59pj5sL3pLmf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/project/volunteer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad467a90-ccf3-4de6-bc2a-4174c0c7e585" name="Changes" comment="" />
+      <created>1692375135904</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692375135904</updated>
+      <workItem from="1692375137655" duration="33000" />
+      <workItem from="1692375532139" duration="5000" />
+      <workItem from="1692375574947" duration="172000" />
+      <workItem from="1694276843023" duration="1105000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/volunteer/build.gradle</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
